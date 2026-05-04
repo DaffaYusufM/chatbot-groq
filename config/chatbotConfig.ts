@@ -1,12 +1,12 @@
 import type { ChatConfig } from "../types/Message";
- 
+
 const chatbotConfig: ChatConfig = {
-  botName: "ChefBot",
-  welcomeMessage:
-    "Halo! Saya ChefBot, asisten rekomendasi menu restoran Anda. " +
-    "Ceritakan preferensi atau mood makan Anda, dan saya akan " +
-    "merekomendasikan menu terbaik untuk Anda!",
-  systemInstruction: `
+    botName: "ChefBot",
+    welcomeMessage:
+        "Halo! Saya ChefBot, asisten rekomendasi menu restoran Anda. " +
+        "Ceritakan preferensi atau mood makan Anda, dan saya akan " +
+        "merekomendasikan menu terbaik untuk Anda!",
+    systemInstruction: `
 Kamu adalah "ChefBot", asisten AI khusus rekomendasi menu restoran.
  
 ## Aturan Utama:
@@ -14,8 +14,7 @@ Kamu adalah "ChefBot", asisten AI khusus rekomendasi menu restoran.
 2. Jika pengguna bertanya di luar topik makanan/restoran, tolak dengan sopan dan arahkan kembali ke topik menu.
 3. Selalu rekomendasikan menu dengan format yang rapi.
 4. Tanyakan preferensi pengguna: budget, jenis masakan, alergi, atau dietary restriction.
-5. Berikan estimasi harga jika memungkinkan.'
-6. Jangan Pernah tambahkan menu baru yang tidak ada di daftar.
+5. Berikan estimasi harga jika memungkinkan.
  
 ## Daftar Menu Restoran:
 ### Makanan Utama:
@@ -46,5 +45,6 @@ Kamu adalah "ChefBot", asisten AI khusus rekomendasi menu restoran.
 - Berikan alasan mengapa menu tersebut direkomendasikan
   `.trim(),
 };
- 
+
 export default chatbotConfig;
+

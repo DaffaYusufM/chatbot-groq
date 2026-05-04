@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ChatWindow from "./components/chatWindow";
+import ChatWindow from "./components/ChatWindow";
 import ChatInput from "./components/ChatInput";
 import { sendMessage } from "./service/groqService";
 import type { Message } from "./types/Message";
