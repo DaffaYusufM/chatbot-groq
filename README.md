@@ -1,21 +1,46 @@
-# ChefBot Groq Chatbot
-ChefBot adalah aplikasi chatbot berbasis React + TypeScript + Vite yang berfungsi sebagai asisten AI rekomendasi menu restoran menggunakan Groq API.
+# SobatKulit Groq Chatbot
 
-# Rules Contributor
-**ChefBot membantu pengguna memilih makanan, minuman, dan dessert berdasarkan:**
-- Budget
-- Selera
-- Mood makan
-- Alergi
-- Dietary restriction
+SobatKulit adalah aplikasi chatbot berbasis React + TypeScript + Vite yang berfungsi sebagai asisten AI konsultasi kesehatan kulit non-diagnostik menggunakan Groq API.
+
+SobatKulit membantu pengguna memahami kondisi kulit secara umum, memberikan edukasi skincare harian, serta memberi saran perawatan awal yang aman tanpa menggantikan diagnosis medis profesional.
+
+
+## SobatKulit membantu pengguna dalam:
+- Daily skincare routine
+- Perawatan kulit dasar
+- Edukasi masalah kulit umum
+- Jerawat
+- Kulit sensitif
+- Kulit berminyak
+- Kulit kering
+- Iritasi ringan
+- Rekomendasi langkah awal perawatan
+- Arahan ke dokter kulit jika kondisi serius
+
 
 # Features
-- Rekomendasi menu restoran berbasis AI
+- Konsultasi kesehatan kulit non-diagnostik berbasis AI
+- Daily skincare guidance
+- Edukasi kondisi kulit umum
 - Prompt injection protection
-- Validasi daftar menu & harga resmi
+- Aman dari manipulasi sistem
+- Rekomendasi perawatan awal
+- Escalation ke dermatologis jika diperlukan
 - Health check otomatis API
 - Modern chat interface
 - Fast response menggunakan Groq LLM
+
+
+# Important Medical Disclaimer
+SobatKulit:
+- Bukan pengganti dokter
+- Tidak memberikan diagnosis pasti
+- Tidak meresepkan obat keras
+- Tidak menggantikan konsultasi medis profesional
+
+Jika pengguna mengalami kondisi berat, memburuk, infeksi, atau gejala serius, SobatKulit akan menyarankan pemeriksaan langsung ke dokter kulit atau tenaga medis terkait.
+
+---
 
 # Branch Naming
 **Catatan Penamaan Branch**
