@@ -1,13 +1,13 @@
 import { useState } from "react";
-
+ 
 interface ChatInputProps {
   onSend: (text: string) => void;
   isLoading: boolean;
 }
-
+ 
 function ChatInput({ onSend, isLoading }: ChatInputProps) {
   const [input, setInput] = useState("");
-
+ 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (input.trim() && !isLoading) {
@@ -15,7 +15,7 @@ function ChatInput({ onSend, isLoading }: ChatInputProps) {
       setInput("");
     }
   };
-
+ 
   return (
     <form className="chat-input" onSubmit={handleSubmit}>
       <input
@@ -31,5 +31,5 @@ function ChatInput({ onSend, isLoading }: ChatInputProps) {
     </form>
   );
 }
-
+ 
 export default ChatInput;
