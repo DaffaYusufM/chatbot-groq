@@ -100,5 +100,4 @@
 .chat-input button:disabled {
   background: #fafafa;
   cursor: not-allowed;
-  collor: black;
 }
