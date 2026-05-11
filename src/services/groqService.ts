@@ -59,35 +59,6 @@ const INJECTION_KEYWORDS = [
   "bypass",
 ];
 
-const OFFTOPIC_KEYWORDS = [
-  "presiden",
-  "politik",
-  "matematika",
-  "menghitung",
-  "hasil dari",
-  "1+1",
-  "2+2",
-  "sejarah",
-  "coding",
-  "program",
-  "python",
-  "javascript",
-  "buatkan kode",
-  "nama buah",
-  "olahraga",
-  "musik",
-  "cuaca",
-  "agama",
-  "film",
-  "game",
-  "tebak-tebakan",
-  "geografi",
-  "negara",
-  "ibukota",
-  "lampu",
-  "malware",
-  "sql injection",
-];
 
 const REFUSAL_MESSAGE =
   "Maaf, saya fokus membantu seputar kesehatan kulit dan skincare. Silakan tanyakan hal terkait kulit atau perawatan kulit.";
@@ -107,10 +78,6 @@ function isInjectionAttempt(text: string): boolean {
 
 function isSkincareRelated(text: string): boolean {
   return hasAnyKeyword(text, SKINCARE_KEYWORDS);
-}
-
-function isOffTopic(text: string): boolean {
-  return hasAnyKeyword(text, OFFTOPIC_KEYWORDS);
 }
 
 function splitIntoClauses(prompt: string): string[] {
